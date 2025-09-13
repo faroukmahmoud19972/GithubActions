@@ -9,8 +9,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name : print awelcome message
+      - name: print awelcome message
         run: echo "welcome to our gihub actions wrk flow!"
+        
+      - name: checkout repository 
+        uses: actions/checkout@v5.0.0
+
+      - name: list repository files 
+        run:  ls -la
       
       
     
