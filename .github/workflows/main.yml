@@ -10,7 +10,7 @@ jobs:
 
     steps:
       - name : print awelcome message
-        run: echo"welcome to our gihub actions wrk flow!"
+        run: echo "welcome to our gihub actions wrk flow!"
       
       
     
